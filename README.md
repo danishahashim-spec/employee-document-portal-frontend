@@ -20,4 +20,18 @@ Setup & Run
 1. Clone repository
 2. Install dependencies:
    ```bash
+   git clone <repo-url>
+2. Install dependencies
    npm install
+3. Run frontend
+   npm run dev
+at http://localhost:5173
+
+Backend API
+php artisan serve must be running and connect to laravel backend 
+at http://127.0.0.1:8000/api/v1
+
+Test Accounts
+ Admin: admin@test.com / password123
+Manager: manager@test.com / password123
+Employee: user@test.com / password123
